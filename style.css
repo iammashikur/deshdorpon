@@ -96,6 +96,16 @@ button.search:hover {
     color: rgb(146, 146, 146);
 }
 
+.h-10 {
+    background-color: blanchedalmond;
+    height: 200px;
+}
+
+.h-20 {
+    background-color: blanchedalmond;
+    height: 400px;
+}
+
 @media only screen and (min-width: 968px) {
     .line-top {
         border-top: 1px solid #e6e6e7;
