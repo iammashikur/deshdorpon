@@ -43,7 +43,6 @@ button.search:hover {
 }
 
 .news-box {
-    min-height: 200px;
     width: 100%;
     display: block;
 }
@@ -52,10 +51,42 @@ button.search:hover {
     width: 100%;
 }
 
+.news-box h1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #222;
+}
+
+.news-box p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+}
+
+.news-box small {
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+}
+
 .news-bar {
     min-height: 80px;
     width: 100%;
     display: block;
+}
+
+.news-bar img {
+    width: 100%;
+}
+
+.news-bar h1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #222;
+}
+
+.news-bar small {
+    font-size: 12px;
+    color: rgb(146, 146, 146);
 }
 
 @media only screen and (min-width: 968px) {
@@ -86,5 +117,20 @@ button.search:hover {
 @media (max-width: 1280px) {
     .main-logo {
         width: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .news-box {
+        background: #fff;
+        padding: 10px;
+        -webkit-box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
+        box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
+    }
+    .news-bar {
+        background: #fff;
+        padding: 10px;
+        -webkit-box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
+        box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
     }
 }
