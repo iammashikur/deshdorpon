@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fbfcfd;
+}
+
+.main-logo {
+    width: 200px;
+}
+
+button.search {
+    border-radius: 25px;
+    color: #656565;
+}
+
+button.search:hover {
+    background-color: #1c4a7b;
+    border-color: #1c4a7b;
+}
+
+.header .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(17, 16, 16) !important;
+}
+
+.navbar {
+    border: none;
+    -webkit-box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
+    box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
+}
+
+::-webkit-scrollbar {
+    background: rgb(26, 26, 26);
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #ffb400;
+    /* border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    border-radius: 5px;
+}
+
+.news-box {
+    min-height: 200px;
+    width: 100%;
+    display: block;
+}
+
+.news-box img {
+    width: 100%;
+}
+
+.news-bar {
+    min-height: 80px;
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (min-width: 968px) {
+    .line-top {
+        border-top: 1px solid #e6e6e7;
+    }
+    .line-bottom {
+        border-bottom: 1px solid #e6e6e7;
+    }
+    .line-left {
+        border-left: 1px solid #e6e6e7;
+    }
+    .line-right {
+        border-right: 1px solid #e6e6e7;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main-logo {
+        width: 150px;
+    }
+}
