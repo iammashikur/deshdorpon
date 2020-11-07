@@ -106,6 +106,17 @@ button.search:hover {
     height: 400px;
 }
 
+.cat-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.cat-title i {
+    color: red;
+    font-size: 17px;
+}
+
 @media only screen and (min-width: 968px) {
     .line-top {
         border-top: 1px solid #e6e6e7;
@@ -118,6 +129,9 @@ button.search:hover {
     }
     .line-right {
         border-right: 1px solid #e6e6e7;
+    }
+    .big h1 {
+        font-size: 20px;
     }
 }
 
