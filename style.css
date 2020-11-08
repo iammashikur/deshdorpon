@@ -186,3 +186,119 @@ button.search:hover {
         box-shadow: 0 0px 5px rgb(0 0 0 / 14%);
     }
 }
+
+.footer-big {
+    padding: 105px 0 65px 0
+}
+
+.footer-big .footer-widget {
+    margin-bottom: 40px
+}
+
+.footer--light {
+    background: #02011f
+}
+
+.footer-big .footer-menu ul li a,
+.footer-big p,
+.footer-big ul li {
+    color: #ccc
+}
+
+.footer-menu {
+    padding-left: 48px
+}
+
+.footer-menu ul li a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(99, 99, 99);
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #437ac2
+}
+
+.footer-menu--1 {
+    width: 100%
+}
+
+.footer-widget-title {
+    line-height: 42px;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.mini-footer {
+    background: #040335;
+    text-align: center;
+    padding: 32px 0
+}
+
+.mini-footer p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: #999
+}
+
+.mini-footer p a {
+    color: #0d7fdf
+}
+
+.mini-footer p a:hover {
+    color: #34bfa3
+}
+
+.widget-about img {
+    display: block;
+    margin-bottom: 30px
+}
+
+.widget-about p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.widget-about .contact-details {
+    margin: 30px 0 0 0;
+    padding: 0%;
+}
+
+.widget-about .contact-details li {
+    margin-bottom: 10px
+}
+
+.widget-about .contact-details li:last-child {
+    margin-bottom: 0
+}
+
+.widget-about .contact-details li span {
+    padding-right: 12px
+}
+
+.widget-about .contact-details li a {
+    color: #2b2b2b;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.widget-about .contact-details li {
+    list-style: none;
+}
+
+@media (max-width:991px) {
+    .footer-menu {
+        padding-left: 0
+    }
+}
