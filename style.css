@@ -4,6 +4,16 @@ body {
     background-color: #fbfcfd;
 }
 
+a {
+    color: #222;
+}
+
+a:hover {
+    color: #222;
+    text-decoration: none;
+    text-shadow: -3px 0px 6px rgb(209, 209, 209);
+}
+
 .main-logo {
     width: 200px;
 }
@@ -49,6 +59,7 @@ button.search:hover {
 .news-box {
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 .news-box img {
@@ -76,6 +87,7 @@ button.search:hover {
     min-height: 80px;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 .news-bar img {
@@ -301,4 +313,23 @@ button.search:hover {
     .footer-menu {
         padding-left: 0
     }
+}
+
+.hyper-link {
+    background: #1c4a7b;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    color: #fbfcfd;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.hyper-link:hover {
+    background: #587ba0;
+    color: #fbfcfd;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 600;
 }
